@@ -1,17 +1,17 @@
 import React from 'react'
-
+import './NavStyle.css'
 const Nav = () => {
   return (
     <div>
-        <nav>
+        <nav id='nav'>
             <div>
 
                 <div className='first'>
-                    <text>AI GEN</text>
+                    <text>AI.GEN</text>
                     <div>
-                        <a href="">Features</a>
-                        <a href="">Roadmap</a>
-                        <a href="">Tokenomics</a>
+                        <p>Features</p>
+                        <p>Roadmap</p>
+                        <p>Tokenomics</p>
                     </div>
                 </div>
                 <div className='second'>
@@ -19,7 +19,7 @@ const Nav = () => {
                         Whitepaper
                     </button>
                     <button>
-                        GetStarted
+                        Get Started
                     </button>
                 </div>
             </div>
