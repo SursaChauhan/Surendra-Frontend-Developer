@@ -14,7 +14,8 @@
 .oddColumn{
   display: flex;
   flex-direction: column;
-  margin-top: 2.4em;
+  margin-top: 3.2em;
+  margin-right: 1.6em;
 }
 .oddColumn img{
   width: 126.12px;
@@ -22,13 +23,14 @@ height: 125.48px;
 gap: 0px;
 border-radius: 15.29px 0px 0px 0px;
 opacity: 0px;
+margin-top: 0.5em;
 }
 
 
 .evenColumn{
   display: flex;
   flex-direction: column;
-  margin-top: 1em;
+  margin-top: 0.8em;
 }
 
 .evenColumn img{
