@@ -1,7 +1,8 @@
 import React from 'react';
 import './Container.css';
-import img1 from'./images/image1.png'
-import img2 from'./images/image.png'
+ import img1 from'./images/image2.png'
+// import img1 from'./images/image.png'
+import img3 from '../SecContain/Images/image.png'
 
 function Container() {
   return (
@@ -15,23 +16,22 @@ function Container() {
         <button className="btn">Get Started</button>
       </div>
       <div className="right">
-        <div className="image-column">
-          <img src={img1} alt="Image 1" />
-          <img src={img2} alt="Image 2" />
-          <img src={img1} alt="Image 3" />
+        <div className="image-column column1">
+          <img src={img3} alt="Image 1" />
+          <img src={img1} alt="Image 2" />
+          <img src={img3} alt="Image 3" />
         </div>
-        <div className="image-column">
-          <img src={img1} alt="Image 4" />
-          <img src={img2} alt="Image 5" />
-          <img src={img1} alt="Image 6" />
+        <div className="image-column column2">
+          <img src={img3} alt="Image 4" />
+          <img src={img1} alt="Image 5" />
+          <img src={img3} alt="Image 6" />
         </div>
-        <div className="image-column">
-          <img src={img1} alt="Image 7" />
-          <img src={img1} alt="Image 8" />
-          <img src={img1} alt="Image 9" />
+        <div className="image-column column1">
+          <img src={img3} alt="Image 7" />
+          <img src={img3} alt="Image 8" />
+          <img src={img3} alt="Image 9" />
         </div>
       </div>
-     <p>hi</p>
      </div>
     </div>
   );
