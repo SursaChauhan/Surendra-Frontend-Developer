@@ -5,6 +5,7 @@
     /* background: rgba(0, 0, 0, 0.6); */
     border:0px 0px 1px 0px;
 padding:16px 64px 16px 64px;
+position: sticky;
 }
 nav div{
     display: flex;
