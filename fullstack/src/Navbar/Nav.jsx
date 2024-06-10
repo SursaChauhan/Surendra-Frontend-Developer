@@ -6,7 +6,7 @@ const Nav = () => {
         <nav id='nav'>
             <div>
 
-                <div className='first'>
+                <div className='navfirst'>
                     <text>AI.GEN</text>
                     <div>
                         <p>Features</p>

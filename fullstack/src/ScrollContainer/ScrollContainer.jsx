@@ -1,6 +1,6 @@
 import React from 'react'
 import './Scroll.css'
-import player from './Image/videoplayer.png';
+import player from './Image/image.png';
 import union from './Image/union.png';
 import mic from './Image/Mic.png';
 const ScrollContainer = () => {

@@ -25,6 +25,7 @@
 import React from 'react';
 import './Tokenomics.css';
 import donut from './Images/newdonut.png'
+import image from './Images/image.png'
 const Tokenomics = () => {
   return (
     <div className="tokenomics">
@@ -45,7 +46,7 @@ const Tokenomics = () => {
       </div>
 <div className="Chartdetails">
       <div className="chart">
-        <img src={donut} alt="Token Distribution Chart" />
+        <img src={image} alt="Token Distribution Chart" />
       </div>
 
       <div className="legend">

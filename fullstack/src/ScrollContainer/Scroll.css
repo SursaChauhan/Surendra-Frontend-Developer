@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .ScrollContainer {
-  background-color: rgb(8, 17, 22);
+  /* background-color: rgb(8, 17, 22); */
   padding-top: 7%; /* Added padding for better visual appearance */
 }
 

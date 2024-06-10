@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body, html {
+    margin: 0;
+    /* padding: 0; */
+    /* font-family: Arial, sans-serif;
+    background-color: #1c1e2f;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .parent-div {
+    width: 90%;
+    margin: auto;
+    /* background: linear-gradient(145deg, #2b2e48, #16182d); */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(35, 34, 34, 0.1);
+  }
+  
+  .first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+.text-container{
+    width: 30%;
+}
+  .text-container p {
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.24px;
+    text-align: left;
+color: rgb(231,233,234);
+  }
+  
+  .help-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+  }
+  
+  .help-text p {
+    margin-right: 20px;
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 400;
+line-height: 30.24px;
+text-align: right;
+Color:rgb(201,201,206);
+  }
+  
+  .input-btn-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-btn-container input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    width: 200px;
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 400;
+line-height: 30.24px;
+text-align: left;
+
+  }
+  
+  .input-btn-container button {
+    background: #9b59b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Outfit;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+
+  }
+  
+  .input-btn-container button:hover {
+    background: #8e44ad;
+  }
+  
+  .second-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+  }
+  
+  .brand-name {
+    font-family: Outfit;
+font-size: 20px;
+font-weight: 500;
+line-height: 25.2px;
+letter-spacing: 0.5em;
+text-align: left;
+color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 2.9em;
+  }
+  
+  .social-icons svg {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons svg:hover {
+    color: #9b59b6;
+  }
+  

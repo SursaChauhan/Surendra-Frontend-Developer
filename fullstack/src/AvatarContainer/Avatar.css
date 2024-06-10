@@ -6,7 +6,7 @@
     padding-top: 26px;
     padding-right: 127px;
     position: relative;
-    background-color: rgb(8,17,22);
+    /* background-color: rgb(8,17,22); */
   }
   
   .AvatarImg {
@@ -73,12 +73,13 @@ font-family: Outfit;
   }
   
   .AvatarText p:focus {
-    color: blue;
+    color: skyblue;
     outline: none;
   }
   
   .AvatarText p:first-of-type:focus {
-    color: red;
+   
+    color: skyblue;
   }
   
   /* Additional CSS for scroll behavior */

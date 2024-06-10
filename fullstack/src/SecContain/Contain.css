@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .ImgContainer{
-  background-color: rgb(61,55,95);
+  /* background: linear-gradient(to right, rgb(64, 56, 102), rgb(30, 40, 57), rgb(51, 39, 66)); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +10,7 @@
 
 .img{
   display: flex;
+  margin-top: 9%;
 }
 .oddColumn{
   display: flex;

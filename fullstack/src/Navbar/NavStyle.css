@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 #nav{
     color: #FFFFFF; 
-    background-color: #000000;
-    /* background: rgba(0, 0, 0, 0.6); */
+    /* background: transparent; */
+    
     border:0px 0px 1px 0px;
 padding:16px 64px 16px 64px;
 top: 0;
 position: sticky;
 z-index: 100;
+background-color: rgba(16,24, 36, 0.9)
 }
 nav div{
     display: flex;
@@ -45,8 +46,9 @@ line-height: 25.2px;
 letter-spacing: 0.5em;
 text-align: left;
 }
-.first{
+.navfirst{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     gap:48px
 }

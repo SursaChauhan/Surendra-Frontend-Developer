@@ -7,6 +7,9 @@ import Avatar from './AvatarContainer/Avatar';
 import ScrollContainer from './ScrollContainer/ScrollContainer'
 import Products from './Products/Products';
 import Tokenomics from './Tokenomics/Tokenomics';
+import Roadmap from './Roadmap/RoadMap';
+import GetStarted from './GetStarted/GetStarted';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
     <ScrollContainer/>
     <Products/>
     <Tokenomics/>
+    <Roadmap/>
+  <GetStarted/>
+  <Footer/>
     </div>
   );
 }
