@@ -119,21 +119,21 @@ height: 30%;
     width: 100%;
     margin-top: 2em;
     display: flex; /* Ensure it takes the full height of the parent */
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    column-gap: 5rem;
   }
   .script {
-    width: 50%;
+    width: 47%;
     display: flex;
     flex-direction: column;
     background-color: rgb(44,41,42);
     border-radius: 10px;
   }
 
-  .script .text {
+  .Scripttext {
     margin: auto;
     z-index: 1;
-    margin-bottom: 3em;
      /* Assign 30% of the height to the text */
     display: flex;
     justify-content: center;
@@ -148,7 +148,7 @@ height: 96px;
 
   }
   .Scriptimg {
-    margin-top: 8rem;
+    margin-top: 5rem;
     flex: 1;
      /* Take the remaining height (70%) */
     position: relative;
@@ -159,6 +159,7 @@ height: 96px;
     width: 100%;
     position: relative;
     background: transparent;
+    top: 2px;
     /* top: 6.7em;
     left: 50%;
     transform: translateX(-50%); */
@@ -173,10 +174,9 @@ height: 96px;
     border-radius: 10px;
   }
 
-  .AI .text {
+.AItext{
     margin: auto;
     z-index: 1;
-    margin-bottom: 3em;
      /* Assign 30% of the height to the text */
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@ height: 96px;
 
   }
   .AIimg {
-    margin-top: 10.2rem;
+    margin-top: 107px;
     flex: 1;
      /* Take the remaining height (70%) */
     position: relative;
@@ -201,6 +201,7 @@ height: 96px;
     border-radius: 0 0 10px 10px;
     width: 100%;
     position: relative;
+    top: 3px;
     /* top: 6.7em;
     left: 50%;
     transform: translateX(-50%); */

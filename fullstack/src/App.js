@@ -6,6 +6,7 @@ import Contain from './SecContain/Contain';
 import Avatar from './AvatarContainer/Avatar';
 import ScrollContainer from './ScrollContainer/ScrollContainer'
 import Products from './Products/Products';
+import Tokenomics from './Tokenomics/Tokenomics';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Avatar/>
     <ScrollContainer/>
     <Products/>
+    <Tokenomics/>
     </div>
   );
 }

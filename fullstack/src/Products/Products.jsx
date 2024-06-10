@@ -28,13 +28,13 @@ const Products = () => {
         </div>
 <div className="two">
     <div className="script">
-        <div className="text">Generate or Write your Script</div>
+        <div className="Scripttext">Generate or Write your Script</div>
         <div className="Scriptimg">
             <img src={script} alt="script" />
         </div>
     </div>
     <div className="AI">
-        <div className="text">AI-Powered Voice Genrator</div>
+        <div className="AItext">AI-Powered Voice Genrator</div>
         <div className="AIimg">
             <img src={AI} alt="AIimg" />
         </div>
