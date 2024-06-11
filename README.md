@@ -53,7 +53,9 @@ The AI.GEN homepage provides an engaging interface where users can explore the f
 
 ## Screenshots
 
-![AI.GEN Homepage](path/to/your/screenshot.png)
+![AI.GEN Homepage] (https://github.com/SursaChauhan/Surendra-Frontend-Developer/assets/132122228/2ced7ddf-664b-4f85-a259-723092959cb9)
+![AI.GEN Homepage](https://github.com/SursaChauhan/Surendra-Frontend-Developer/assets/132122228/2ced7ddf-664b-4f85-a259-723092959cb9)
+
 
 ## Presentation
 
