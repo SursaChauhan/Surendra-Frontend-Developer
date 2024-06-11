@@ -12,7 +12,6 @@ Welcome to the AI.GEN homepage repository. This project showcases the homepage d
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -29,12 +28,12 @@ The AI.GEN homepage provides an engaging interface where users can explore the f
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/aigen-homepage.git
+    git clone [https://github.com/SursaChauhan/Surendra-Frontend-Developer.git]
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd aigen-homepage
+    cd fullstack
     ```
 
 3. Install the dependencies:
@@ -46,24 +45,23 @@ The AI.GEN homepage provides an engaging interface where users can explore the f
 
 1. Start the development server:
     ```bash
-    npm start
+    npm run start
     ```
 
 2. Open your browser and go to `http://localhost:3000` to view the homepage.
 
 ## Screenshots
 
-![AI.GEN Homepage] (https://github.com/SursaChauhan/Surendra-Frontend-Developer/assets/132122228/2ced7ddf-664b-4f85-a259-723092959cb9)
 ![AI.GEN Homepage](https://github.com/SursaChauhan/Surendra-Frontend-Developer/assets/132122228/2ced7ddf-664b-4f85-a259-723092959cb9)
 
 
 ## Presentation
 
-For a detailed walkthrough of the project, please watch our presentation video [here](#).
+For a detailed walkthrough of the project, please watch our presentation video [https://vimeo.com/956299220/efb43d7627?share=copy](#).
 
 ## Deployment
 
-Check out the live version of the homepage [here](#).
+Check out the live version of the homepage [https://6667cc4a0e46b199aee3543c--glowing-pika-74121a.netlify.app/](#).
 
 ## Technologies Used
 
@@ -89,7 +87,3 @@ We welcome contributions from the community. To contribute, follow these steps:
     git push origin feature-branch
     ```
 5. Create a pull request detailing your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
