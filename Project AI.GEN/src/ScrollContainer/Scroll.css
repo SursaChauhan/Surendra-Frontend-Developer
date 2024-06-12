@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.ScrollContainer {
+  /* background-color: rgb(8, 17, 22); */
+  padding-top: 7%; /* Added padding for better visual appearance */
+}
+
+.FirstScroll,
+.SecondScroll {
+  display: flex;
+  gap: 24px;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  /* padding: 10px 0; */
+   /* Added padding for better visual appearance */
+}
+
+.FirstScroll p,
+.SecondScroll p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding: 12px 8px 16px 8px;
+  flex: 0 0 auto; /* Prevent shrinking */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+.SecondScroll{
+    margin-top: -40px;
+}
+.FirstScroll p:nth-child(odd),
+.SecondScroll p:nth-child(odd) {
+  background: linear-gradient(91.84deg, rgba(128, 47, 126, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.FirstScroll p:nth-child(even),
+.SecondScroll p:nth-child(even) {
+  background: linear-gradient(92.08deg, rgba(43, 91, 117, 0.7) 0%, rgba(255, 255, 255, 0.09) 100%);
+}
+.images {
+  position: relative;
+  /* height: 150px; */
+   /* Ensure this container has enough height to contain the images */
+}
+
+.images img {
+  position: absolute;
+}
+
+.images .union {
+  top: 10px;
+  left:35%;
+}
+
+.images .player {
+  top: 9em;
+  left:10%;
+}
+
+.images .mic {
+  top: 9.6em;
+  right: 34%;
+}
+
+/* media queries */
+@media (max-width: 821px) {
+  .FirstScroll,
+  .SecondScroll {
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow-x: scroll; /* Allow horizontal scrolling */
+  scroll-behavior: smooth;
+  }
+  
+}

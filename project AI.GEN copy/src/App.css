@@ -1,0 +1,21 @@
+
+body {
+  /* height: 14.2857vh; */
+   /* 100vh / 7 = 14.2857vh */
+  /* width: 100%; */
+  background: linear-gradient(rgb(10, 9, 17), rgb(36, 51, 77), rgb(28, 19, 40));
+  /* background-size: 100% 700%;  */
+  background-attachment: fixed; 
+  /* Fixed attachment for seamless effect */
+}
+
+ body:nth-child(1) { background-position: 0% 0%; }
+body:nth-child(2) { background-position: 0% 11.1111%; }
+body:nth-child(3) { background-position: 0% 22.2222%; }
+body:nth-child(4) { background-position: 0% 33.3333%; }
+body:nth-child(5) { background-position: 0% 44.4444%; }
+body:nth-child(6) { background-position: 0% 55.5556%; }
+body:nth-child(7) { background-position: 0% 66.6667%; }
+body:nth-child(8) { background-position: 0% 77.7778%; }
+body:nth-child(9) { background-position: 0% 88.8889%; } 
+

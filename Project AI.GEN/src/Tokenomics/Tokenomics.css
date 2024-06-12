@@ -1,0 +1,236 @@
+/* src/Tokenomics.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.tokenomics {
+    /* background-color:rgb(15,7,11); */
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-family: Outfit;
+font-size: 48px;
+font-weight: 400;
+line-height: 64px;
+text-align: center;
+Color: rgba(250, 117, 248, 1);
+
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  /* justify-content: space-between; */
+  }
+  .details .left-column{
+    flex: 1;
+    max-width: 45%;
+  }
+  .details p {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin: 5px 0 0 11rem;
+  }
+  .details p strong{
+    margin: 5px 10px;
+    font-family: Inter;
+font-size: 22px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+
+  }
+  .details p span{
+    /* margin: 5px 0  0 10px; */
+    font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 26.63px;
+text-align: left;
+color: rgba(255, 255, 255, 0.8);
+;
+  }
+  .name{
+    margin-left: 5.7rem;
+  }
+  .total{
+    margin-left: 1.4rem;
+  }
+  .contract{
+    margin-left: 3.9rem;
+  }
+  #token{
+    margin-left: 5rem;
+  }
+  #supply{
+    margin-left: 1.4rem;
+  }
+  #chain{
+    margin-left: 9.8rem;
+  }
+  .left-column, .right-column {
+    width: 45%;
+  }
+  
+  .Chartdetails{
+    width: 80%;
+    margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 1rem;
+  }
+
+  .chart-legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chart {
+    width: 50%;
+  }
+  .chart img{
+    max-width: 100%;
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgb(55,46,58);
+    border-radius: 4px;
+  }
+  
+  .color-box {
+    width: 25px;
+    height: 51px;
+    margin-right: 10px;
+    border-radius: 4px 0 0 4px;
+  }
+  .legend-item p{
+    margin-right: 2rem;
+  }
+  .legend-item .span {
+    margin: 0 2em 0 5.5em; /* Adjust the spacing as needed */
+  }
+  .span1{
+    margin: 0 2em 0 3.9em;
+  }
+  .spanlast{
+    margin: 0 2em 0 3.3em;
+  }
+  
+  .partnership {
+    background-color: #ab2346;
+  }
+  
+  .lp-pool {
+    background-color: #4b9ea3;
+  }
+  
+  .burned {
+    background-color: #835bb1;
+  }
+  
+  .bnb-lp-pool {
+    background-color: #d7923d;
+  }
+  
+
+  @media (max-width: 821px) {
+    .details{
+      width: 100%;
+    }
+    .left-column{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .details p{
+      margin: 0;
+    }
+
+  }
+
+  @media (max-width : 435px){
+.header h1{
+  font-family: Outfit;
+font-size: 25px;
+font-weight: 400;
+line-height: 19.02px;
+text-align: center;
+
+}
+.details p strong{
+  font-family: Outfit;
+  font-size: 6.54px;
+  font-weight: 600;
+  line-height: 4.76px;
+  text-align: left;  
+
+}
+.details p span{
+  font-family: Inter;
+font-size: 6.54px;
+font-weight: 400;
+line-height: 7.91px;
+text-align: left;
+
+}
+.legend-item p{
+  font-family: Inter;
+font-size: 6.54px;
+font-weight: 600;
+line-height: 4.76px;
+text-align: left;
+
+}
+.legend-item span{
+  font-family: Inter;
+font-size: 6.54px;
+font-weight: 400;
+line-height: 7.91px;
+text-align: left;
+
+}
+.color-box {
+  width: 7.43px;
+  height: 18.5px;
+  margin-right: 10px;
+  border-radius: 4px 0 0 4px;
+}
+
+.name{
+  margin-left: 2.7rem;
+}
+.total{
+  margin-left: 1.4rem;
+}
+.contract{
+  margin-left: 1.9rem;
+}
+#token{
+  margin-left: 2.4rem;
+}
+#supply{
+  margin-left: 1.4rem;
+}
+#chain{
+  margin-left: 3.8rem;
+}
+
+  }
